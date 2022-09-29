@@ -4,8 +4,11 @@ body{
 .titlebar_top{
     background-color: #FAFBFC;
     padding: 15px 30px;
+    height: 30px;
+    margin-top: 6%;
     display: flex;
     justify-content: space-between;
+    box-shadow: 1px 1px 1px 1px lightgray;
 }
 .titlebar_bagSquare{
     background-color: white;

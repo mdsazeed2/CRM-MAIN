@@ -2,14 +2,13 @@
     height: 10vh;
     border-radius: 2px;
     /* border-style: ridge; */
-    border-color: #EEEFEF;
+    box-shadow: 1px 1px 1px 1px lightgray;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .filterbar_column1 {
-    /* background-color: blueviolet; */
     width: 20%;
     height: 100%;
     display: flex;
