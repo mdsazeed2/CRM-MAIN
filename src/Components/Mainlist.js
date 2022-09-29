@@ -5,7 +5,7 @@ import {TiTick} from "react-icons/ti";
 export default function Mainlist() {
   return (
     <>
-      <div>
+      <div className="Outer">
         <div className="box"></div>
         <div className="header">
           <div className="row1">
@@ -13,7 +13,7 @@ export default function Mainlist() {
               <li>FirstName</li>
               <li>LastName</li>
               <li>Status</li>
-              <li>Created On</li>
+              <li>Created </li>
               <li>Email</li>
               <li>Responses</li>
               <li>Owner</li>

@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     box-shadow: 1px 1px 1px 1px lightgray;
+    
 }
 .titlebar_bagSquare{
     background-color: white;

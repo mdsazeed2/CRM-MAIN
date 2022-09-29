@@ -1,10 +1,12 @@
 .Leadlist {
+    height: 90%;
+    width: 95%;
     position: absolute;
 
 }
 .Leadlist_Content {
-    height: 80%;
-    width: 80%;
-    margin-left: 20vh;
+    height: 70%;
+    width: 70%;
+    margin-left: 30vh;
     
 }
