@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/Mainlist.css";
+import "./Mainlist.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import {TiTick} from "react-icons/ti";
 export default function Mainlist() {
