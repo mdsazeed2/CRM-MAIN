@@ -5,17 +5,17 @@ import { BsFillPlusCircleFill } from "react-icons/bs";
 export default function TitleBar() {
   return (
     <>
-      <div className="titlebar_top">
-        <div className="titlebar_top_col1">
-          <div className="titlebar_bagSquare">
-            <GiBeachBag className="titlebar_bagIcon" />
+      <div className="titlebar1_top">
+        <div className="titlebar1_top_col1">
+          <div className="titlebar1_bagSquare">
+            <GiBeachBag className="titlebar1_bagIcon" />
           </div>
           <label>LeadList</label>
         </div>
-        <div className="titlebar_top_col2">
+        <div className="titlebar1_top_col2">
             
-            <div className="titlebar_top_col22">
-                <BsFillPlusCircleFill className="titlebar_plusIcon" />
+            <div className="titlebar1_top_col22">
+                <BsFillPlusCircleFill className="titlebar1_plusIcon" />
                 <label>Save Lead</label>
             </div>
         </div>
