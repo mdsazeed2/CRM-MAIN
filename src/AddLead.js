@@ -1,9 +1,9 @@
 import React from "react";
 import "./AddLead.css";
-import Form from "./components/form";
-import HeadBar from "./components/headbar";
-import LeftBar from "./components/leftbar";
-import TitleBar from "./components/titlebar";
+import Form from "./Components/form";
+import HeadBar from "./Components/headbar";
+import LeftBar from "./Components/leftbar";
+import TitleBar from "./Components/titlebar";
 
 export default function AddLead() {
   return (
@@ -16,7 +16,6 @@ export default function AddLead() {
             <TitleBar />
             <div className="AddLead_content_right_inside_form">
                 <Form />
-
             </div>
           </div>
         </div>
