@@ -5,10 +5,10 @@ import {TiTick} from "react-icons/ti";
 export default function Mainlist() {
   return (
     <>
-      <div className="Outer">
-        <div className="box"></div>
-        <div className="header">
-          <div className="row1">
+      <div className="Mainlist_Outer">
+        <div className="Mainlist_box"></div>
+        <div className="Mainlist_header">
+          <div className="Mainlist_row1">
             <ul>
               <li>FirstName</li>
               <li>LastName</li>
@@ -20,11 +20,11 @@ export default function Mainlist() {
             </ul>
           </div>
         </div>
-        <div className="Innerbox">
-          <div className="list">
-            <div className="list_row_top">
-              <div className="list_whitecircle"></div>
-              <div className="list_row">
+        <div className="Mainlist_Innerbox">
+          <div className="Mainlist_list">
+            <div className="Mainlist_list_row_top">
+              <div className="Mainlist_list_whitecircle"></div>
+              <div className="Mainlist_list_row">
                 <label>John</label>
                 <label>Smith</label>
                 <label>Confirmed</label>
@@ -32,7 +32,7 @@ export default function Mainlist() {
                 <label>larrywilson@nomail.com</label>
                 <label>10</label>
                 <label>Larry wilson</label>
-                <div className="icon">
+                <div className="Mainlist_icon">
                   <AiOutlineArrowRight />
                 </div>
               </div>
@@ -41,9 +41,9 @@ export default function Mainlist() {
             <ListRow/>
             <ListRow/>
             <ListRow/>
-            <div className="list_row7_top">
-              <div className="list_whitecircle7"><TiTick/></div>
-              <div className="list_row7">
+            <div className="Mainlist_list_row7_top">
+              <div className="Mainlist_list_whitecircle7"><TiTick/></div>
+              <div className="Mainlist_list_row7">
                 <label>John</label>
                 <label>Smith</label>
                 <label>Confirmed</label>
@@ -58,7 +58,7 @@ export default function Mainlist() {
             <ListRow/>
             <ListRow/>
             <ListRow/>
-            <div><button className="Button">load more leads</button></div>
+            <div><button className="Mainlist_Button">load more leads</button></div>
           </div>
         </div>
       </div>
@@ -69,9 +69,9 @@ export default function Mainlist() {
 }
 function ListRow(){
   return(<>
-  <div className="list_row_top">
-            <div className="list_whitecircle"></div>
-            <div className="list_row">
+  <div className="Mainlist_list_row_top">
+            <div className="Mainlist_list_whitecircle"></div>
+            <div className="Mainlist_list_row">
               <label>John</label>
               <label>Smith</label>
               <label>Confirmed</label>
@@ -79,7 +79,7 @@ function ListRow(){
               <label>larrywilson@nomail.com</label>
               <label>10</label>
               <label>Larry wilson</label>
-              <div className="icon">
+              <div className="Mainlist_icon">
                 <AiOutlineArrowRight />
               </div>
             </div>

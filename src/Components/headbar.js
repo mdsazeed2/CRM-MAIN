@@ -11,7 +11,7 @@ import "./headbar.css";
 export default function HeadBar() {
   return (
     <>
-      <div className="header">
+      <div className="headbar_header">
         <div className="col1">
           <div className="icon_circle">
             <AiOutlineMenu />

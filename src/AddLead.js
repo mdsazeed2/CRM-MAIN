@@ -1,14 +1,14 @@
 import React from "react";
 import "./AddLead.css";
 import Form from "./Components/form";
-import HeadBar from "./Components/headbar";
-import LeftBar from "./Components/leftbar";
-import TitleBar from "./Components/titlebar";
+import Topbar from "./Components/Topbar";
+import LeftBar from "./Components/LeftBar";
+import TitleBar from "./Components/titlebar1";
 
 export default function AddLead() {
   return (
     <div>
-      <HeadBar />
+      <Topbar />
       <div className="AddLead_content">
         <LeftBar className="AddLead_LeftBar"/>
         <div className="AddLead_content_right">

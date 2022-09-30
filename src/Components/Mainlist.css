@@ -2,7 +2,7 @@ body {
   background-color:white;
   
 }
-.header {
+.Mainlist_header {
   margin-top: 30px;
   background-color: white;
   width: 100%;
@@ -11,7 +11,7 @@ body {
   padding-right: 50px;
   
 }
-.row1 ul {
+.Mainlist_row1 ul {
   width: 83%;
   display: flex;
   flex-direction: row;
@@ -23,13 +23,13 @@ body {
 
 }
 
-.row1 ul li {
+.Mainlist_row1 ul li {
   padding-top: 5px;
   padding-left: 60px;
   padding-right: 25px;
   list-style-type: none;
 }
-.list_whitecircle {
+.Mainlist_list_whitecircle {
   min-width: 20px;
   max-width: 20px;
   display: flex;
@@ -44,21 +44,21 @@ body {
   border: 1px solid lightgray;
   
 }
-.Innerbox {
+.Mainlist_Innerbox {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
   height: 20%;
   box-shadow: 1px 1px 1px 1px  lightgray;
 }
-.list {
+.Mainlist_list {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   padding: 10px;
   border-radius: 10px;
 }
-.list_row_top{
+.Mainlist_list_row_top{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -69,7 +69,7 @@ body {
   padding-bottom: 15px;
   padding-left: 60px;
 }
-.list_row {
+.Mainlist_list_row {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -77,7 +77,7 @@ body {
   width: 95%;
   padding-left: 20px;
 }
-.list_row7_top{
+.Mainlist_list_row7_top{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -88,7 +88,7 @@ body {
   padding-bottom: 15px;
   padding-left: 60px;
 }
-.list_row7 {
+.Mainlist_list_row7 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -96,7 +96,7 @@ body {
   width: 95%;
   padding-left: 20px;
 }
-.list_whitecircle7 {
+.Mainlist_list_whitecircle7 {
   min-width: 20px;
   max-width: 20px;
   display: flex;
@@ -109,7 +109,7 @@ body {
   color: white;
   font-size: 1.2rem;
 }
-.Button {
+.Mainlist_Button {
   display: flex;
   flex-direction: row;
   margin-left: 50%;
