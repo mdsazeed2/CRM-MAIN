@@ -1,7 +1,6 @@
-import React from "react";
 import "./Mainlist.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import {TiTick} from "react-icons/ti";
+import { TiTick } from "react-icons/ti";
 export default function Mainlist() {
   return (
     <>
@@ -23,7 +22,9 @@ export default function Mainlist() {
         <div className="Mainlist_Innerbox">
           <div className="Mainlist_list">
             <div className="Mainlist_list_row_top">
-              <div className="Mainlist_list_whitecircle"></div>
+              <div className="Mainlist_list_whitecircle" >
+              <input className="Cb" type="checkbox"/>
+              </div>
               <div className="Mainlist_list_row">
                 <label>John</label>
                 <label>Smith</label>
@@ -37,12 +38,14 @@ export default function Mainlist() {
                 </div>
               </div>
             </div>
-            <ListRow/>
-            <ListRow/>
-            <ListRow/>
-            <ListRow/>
+            <ListRow />
+            <ListRow />
+            <ListRow />
+            <ListRow />
             <div className="Mainlist_list_row7_top">
-              <div className="Mainlist_list_whitecircle7"><TiTick/></div>
+              <div className="Mainlist_list_whitecircle7">
+                <TiTick />
+              </div>
               <div className="Mainlist_list_row7">
                 <label>John</label>
                 <label>Smith</label>
@@ -54,35 +57,37 @@ export default function Mainlist() {
                 <AiOutlineArrowRight />
               </div>
             </div>
-            <ListRow/>
-            <ListRow/>
-            <ListRow/>
-            <ListRow/>
-            <div><button className="Mainlist_Button">load more leads</button></div>
+            <ListRow />
+            <ListRow />
+            <ListRow />
+            <ListRow />
+            <div>
+              <button className="Mainlist_Button">load more leads</button>
+            </div>
           </div>
         </div>
       </div>
     </>
   );
-
- 
 }
-function ListRow(){
-  return(<>
-  <div className="Mainlist_list_row_top">
-            <div className="Mainlist_list_whitecircle"></div>
-            <div className="Mainlist_list_row">
-              <label>John</label>
-              <label>Smith</label>
-              <label>Confirmed</label>
-              <label>2022-02-01</label>
-              <label>larrywilson@nomail.com</label>
-              <label>10</label>
-              <label>Larry wilson</label>
-              <div className="Mainlist_icon">
-                <AiOutlineArrowRight />
-              </div>
-            </div>
-            </div>
-  </>)
+function ListRow() {
+  return (
+    <>
+      <div className="Mainlist_list_row_top">
+        <div className="Mainlist_list_whitecircle" ></div>
+        <div className="Mainlist_list_row">
+          <label>John</label>
+          <label>Smith</label>
+          <label>Confirmed</label>
+          <label>2022-02-01</label>
+          <label>larrywilson@nomail.com</label>
+          <label>10</label>
+          <label>Larry wilson</label>
+          <div className="Mainlist_icon">
+            <AiOutlineArrowRight />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }

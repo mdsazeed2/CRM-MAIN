@@ -29,6 +29,10 @@ body {
   padding-right: 25px;
   list-style-type: none;
 }
+.Cb{
+  border-radius: 100%;
+  background-color: rgb(215, 105, 21);
+}
 .Mainlist_list_whitecircle {
   min-width: 20px;
   max-width: 20px;
@@ -38,7 +42,7 @@ body {
   background-color: white;
   min-height: 20px;
   max-height: 20px;
-  border-radius: 30px;
+  border-radius: 50px;
   color: #c3cad9;
   font-size: 1.2rem;
   border: 1px solid lightgray;
@@ -116,6 +120,6 @@ body {
   background-color: white;
   border-radius: 20px;
   padding: 5px;
-  color: rgba(0, 0, 0, 0.831);
+  color: rgba(0, 0, 0, 0.5);
   border: 1px solid lightgray;
 }
