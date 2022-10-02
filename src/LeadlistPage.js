@@ -1,9 +1,9 @@
 import "./LeadlistPage.css";
-import Topbar from "./Components/Topbar";
-import LeftBar from "./Components/LeftBar";
-import TitleBar from "./Components/Titlebar";
-import Filterbar from "./Components/Filterbar";
-import Mainlist from "./Components/Mainlist";
+import Topbar from "./components/Topbar";
+import LeftBar from "./components/LeftBar";
+import TitleBar from "./components/Titlebar";
+import Filterbar from "./components/Filterbar";
+import Mainlist from "./components/Mainlist";
 export default function LeadListPage() {
     
   return (

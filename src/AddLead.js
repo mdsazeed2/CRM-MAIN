@@ -1,9 +1,9 @@
 import React from "react";
 import "./AddLead.css";
-import Form from "./Components/form";
-import Topbar from "./Components/Topbar";
-import LeftBar from "./Components/LeftBar";
-import TitleBar from "./Components/titlebar1";
+import Form from "./components/form";
+import Topbar from "./components/Topbar";
+import LeftBar from "./components/LeftBar";
+import TitleBar from "./components/titlebar1";
 
 export default function AddLead() {
   return (
