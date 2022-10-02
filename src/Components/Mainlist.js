@@ -1,7 +1,11 @@
 import "./Mainlist.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import { TiTick } from "react-icons/ti";
+import { useState } from "react";
 export default function Mainlist() {
+  const [show, setShow] = useState(false);
+  function HandleClick(){
+    setShow(!show);
+  }
   return (
     <>
       <div className="Mainlist_Outer">
@@ -12,7 +16,7 @@ export default function Mainlist() {
               <li>FirstName</li>
               <li>LastName</li>
               <li>Status</li>
-              <li>Created </li>
+              <li>Created on </li>
               <li>Email</li>
               <li>Responses</li>
               <li>Owner</li>
@@ -22,9 +26,8 @@ export default function Mainlist() {
         <div className="Mainlist_Innerbox">
           <div className="Mainlist_list">
             <div className="Mainlist_list_row_top">
-              <div className="Mainlist_list_whitecircle" >
-              <input className="Cb" type="checkbox"/>
-              </div>
+              <input className="Cb" type="checkbox" onClick={HandleClick}/>
+              <label for="checkbox"></label>
               <div className="Mainlist_list_row">
                 <label>John</label>
                 <label>Smith</label>
@@ -42,21 +45,7 @@ export default function Mainlist() {
             <ListRow />
             <ListRow />
             <ListRow />
-            <div className="Mainlist_list_row7_top">
-              <div className="Mainlist_list_whitecircle7">
-                <TiTick />
-              </div>
-              <div className="Mainlist_list_row7">
-                <label>John</label>
-                <label>Smith</label>
-                <label>Confirmed</label>
-                <label>2022-02-01</label>
-                <label>larrywilson@nomail.com</label>
-                <label>10</label>
-                <label>Larry wilson</label>
-                <AiOutlineArrowRight />
-              </div>
-            </div>
+            <ListRow />
             <ListRow />
             <ListRow />
             <ListRow />
@@ -65,8 +54,8 @@ export default function Mainlist() {
               <button className="Mainlist_Button">load more leads</button>
             </div>
           </div>
+          </div>
         </div>
-      </div>
     </>
   );
 }
@@ -74,7 +63,8 @@ function ListRow() {
   return (
     <>
       <div className="Mainlist_list_row_top">
-        <div className="Mainlist_list_whitecircle" ></div>
+        <input className="Cb" type="checkbox"/>
+              <label for="checkbox"></label>
         <div className="Mainlist_list_row">
           <label>John</label>
           <label>Smith</label>
